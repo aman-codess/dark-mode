@@ -38,3 +38,6 @@ body{
     z-index: 2;
     transition: left .15s;
 }
+::selection{
+    text-decoration: none;
+}
