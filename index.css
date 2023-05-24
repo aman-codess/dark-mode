@@ -1,0 +1,40 @@
+body{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container{
+    position: relative;
+    width: 300px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.circle{
+    position: absolute;
+    width: 100px;
+    background-color: gray;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 2;
+    transition: left .15s;
+    
+}
+.circle2{
+    position: absolute;
+    width: 100px;
+    background-color: greenyellow;
+    top: 10px;
+    bottom: 10px;
+    left: 190px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 2;
+    transition: left .15s;
+}
